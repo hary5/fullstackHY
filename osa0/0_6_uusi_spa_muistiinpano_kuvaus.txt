@@ -1,0 +1,7 @@
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/spa
+palvelin->selain: 201 {message: "Note created"}
+
+note over selain
+Selain saa vahvistuksen palvelimelle lisätystä muistiinpanosta.
+Muistiinpano lisätään javascriptillä sivulle ilman uusia pyyntöjä palvelimelle.
+end note
